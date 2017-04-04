@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		D0FB377E1E93CCA8007BBEB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FB377D1E93CCA8007BBEB9 /* AppDelegate.swift */; };
 		D0FB37801E93CCA8007BBEB9 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FB377F1E93CCA8007BBEB9 /* FirstViewController.swift */; };
-		D0FB37821E93CCA8007BBEB9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FB37811E93CCA8007BBEB9 /* SecondViewController.swift */; };
+		D0FB37821E93CCA8007BBEB9 /* LocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FB37811E93CCA8007BBEB9 /* LocationVC.swift */; };
 		D0FB37851E93CCA9007BBEB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0FB37831E93CCA9007BBEB9 /* Main.storyboard */; };
 		D0FB37871E93CCA9007BBEB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0FB37861E93CCA9007BBEB9 /* Assets.xcassets */; };
 		D0FB378A1E93CCA9007BBEB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0FB37881E93CCA9007BBEB9 /* LaunchScreen.storyboard */; };
+		D0FB37921E93DEF6007BBEB9 /* MapViewAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FB37911E93DEF6007BBEB9 /* MapViewAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D0FB377A1E93CCA8007BBEB9 /* MapView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0FB377D1E93CCA8007BBEB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0FB377F1E93CCA8007BBEB9 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		D0FB37811E93CCA8007BBEB9 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		D0FB37811E93CCA8007BBEB9 /* LocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationVC.swift; sourceTree = "<group>"; };
 		D0FB37841E93CCA9007BBEB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D0FB37861E93CCA9007BBEB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0FB37891E93CCA9007BBEB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0FB378B1E93CCA9007BBEB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0FB37911E93DEF6007BBEB9 /* MapViewAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewAnnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				D0FB377D1E93CCA8007BBEB9 /* AppDelegate.swift */,
 				D0FB377F1E93CCA8007BBEB9 /* FirstViewController.swift */,
-				D0FB37811E93CCA8007BBEB9 /* SecondViewController.swift */,
+				D0FB37811E93CCA8007BBEB9 /* LocationVC.swift */,
+				D0FB37911E93DEF6007BBEB9 /* MapViewAnnotation.swift */,
 				D0FB37831E93CCA9007BBEB9 /* Main.storyboard */,
 				D0FB37861E93CCA9007BBEB9 /* Assets.xcassets */,
 				D0FB37881E93CCA9007BBEB9 /* LaunchScreen.storyboard */,
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0FB37821E93CCA8007BBEB9 /* SecondViewController.swift in Sources */,
+				D0FB37821E93CCA8007BBEB9 /* LocationVC.swift in Sources */,
 				D0FB377E1E93CCA8007BBEB9 /* AppDelegate.swift in Sources */,
+				D0FB37921E93DEF6007BBEB9 /* MapViewAnnotation.swift in Sources */,
 				D0FB37801E93CCA8007BBEB9 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,6 +296,7 @@
 				D0FB37901E93CCA9007BBEB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
